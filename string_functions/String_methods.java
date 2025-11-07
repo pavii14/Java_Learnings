@@ -37,7 +37,7 @@ public class String_methods {
 		
 		System.out.println("SubString : "+ first_name.substring(3));// ignores the given number of letters 
 		
-		System.out.println("Last index of :  "+ case2.lastIndexOf("a") );
+		System.out.println("Last index of :  "+ case2.lastIndexOf("a") );// if the given letter or a word is not there it will give -1
 		
 		System.out.println("Index of : " + case1.indexOf("a"));
 	}
